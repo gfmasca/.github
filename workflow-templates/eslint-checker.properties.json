@@ -1,0 +1,9 @@
+{
+  "name": "ESLint rules checker",
+  "description": "Check if the code follows ESLint rules configured in the project",
+  "iconName": "eslint",
+  "categories": [
+    "TypeScript",
+    "JavaScript"
+  ]
+}
