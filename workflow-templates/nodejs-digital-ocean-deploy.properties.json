@@ -1,0 +1,9 @@
+{
+  "name": "Nodejs application deployment in Digital Ocean",
+  "description": "Deploy nodejs applications with SSH in Digital Ocean that uses typeorm and pm2",
+  "iconName": "rocket",
+  "categories": [
+    "TypeScript",
+    "JavaScript"
+  ]
+}
