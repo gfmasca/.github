@@ -8,7 +8,8 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x]
+        # when using this template, update the node version
+        node-version: [14.x]
 
     steps:
       - uses: actions/checkout@v1
@@ -22,8 +23,4 @@ jobs:
         run: yarn
 
       - name: Run ESLint
-        uses: ninosaurus/eslint-check@v5
-        with:
-          eslint-config-path: "./application/.eslintrc.json"
-          custom-directory: "./application"
-          repo-token: ${{secrets.GITHUB_TOKEN}}
+        run: yarn lint
