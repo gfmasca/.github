@@ -45,6 +45,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_KEY }}
+          # password: ${{ secrets.SSH_PASSWORD }} # if you created your droplet with password auth use this line 
           source: ".,!node_modules"
           target: "~/repo" # change to the name of your directory name in your machine
 
